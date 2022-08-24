@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-scanbot-stripout" version="1.0">
+    <name>ScanbotStripOutSupport</name>
+    <description>Cordova Plugin to remove simulator dependence from Scanbot Barcodescanner</description>
+    <keywords>cordova,phonegap,plugin</keywords>
+    <repo>https://github.com/cmateustechy/cordova-plugin-scanbot-stripout.git</repo>
+
+    <platform name="ios">
+      <hook src="src/ios/strip-architectures.js" type="after_prepare" />
+      <hook src="src/ios/strip-architectures.js" type="after_platform_add" />
+      <hook src="src/ios/strip-architectures.js" type="after_plugin_add" />
+    </platform>
+
+</plugin>
