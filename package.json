@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-scanbot-stripout",
+  "version": "1.0",
+  "description": "Cordova Plugin to remove simulator dependence from Scanbot Barcodescanner",
+  "cordova": {
+    "id": "cordova-plugin-scanbot-stripout",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmateustechy/cordova-plugin-scanbot-stripout.git"
+  },
+  "keywords": [
+    "cordova","phonegap","plugin"
+  ]
+}
