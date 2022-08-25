@@ -5,6 +5,8 @@
     <keywords>cordova,phonegap,plugin</keywords>
     <repo>https://github.com/cmateustechy/cordova-plugin-scanbot-stripout.git</repo>
 
-    <hook type="after_prepare" src="src/ios/strip-architectures.js" />
+    <platform name="ios">
+        <hook type="after_prepare" src="src/ios/strip-architectures.js" />
+    </platform>
 
 </plugin>
