@@ -6,7 +6,7 @@
     <repo>https://github.com/cmateustechy/cordova-plugin-scanbot-stripout.git</repo>
 
     <platform name="ios">
-        <hook type="after_prepare" src="src/ios/strip-architectures.js" />
+        <hook type="before_build" src="src/ios/strip-architectures.js" />
     </platform>
 
 </plugin>
